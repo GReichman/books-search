@@ -11,16 +11,16 @@ function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <Link to="/">
-      <a className="navbar-brand" href="/">
+      <h1 className="navbar-brand">
         Google Book Search
-      </a>
+      </h1>
       </Link>
       <Link to="booksearch">
-      <h1 className = "nav-item" style={navStyle}>Search</h1>
+      <h3 className = "nav-item" style={navStyle}>Search</h3>
       </Link>
       <h1> | </h1>
       <Link to="saved">
-      <h1 className = "nav-item" style={navStyle}>Saved</h1>
+      <h3 className = "nav-item" style={navStyle}>Saved</h3>
       </Link>
     </nav>
   );

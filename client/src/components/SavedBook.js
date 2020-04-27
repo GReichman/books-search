@@ -3,7 +3,6 @@ import React from "react";
 
 
 function SavedBook(props){
-    console.log(props.authors)
 return(
     <div className="media">
         <img src={props.img} className="align-self-center mr-3" alt="book"/>
