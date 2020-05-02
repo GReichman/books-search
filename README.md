@@ -9,3 +9,6 @@ https://gsr-books-search.herokuapp.com/
   ![screenshot](./images/search.png)
   On the saved page, you will see a list of every book that has been saved to far. If you wish to remove a book, click the red x in the bottom right corner of the book object.
   ![screenshot](./images/saved.png)
+  
+## Known Issues
+  Some search results dont appear because missing data from some results were causing errors
